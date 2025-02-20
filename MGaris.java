@@ -52,6 +52,8 @@ public class MGaris {
         G4.printKoordinatGaris();
         System.out.println("Apakah garis G1 dan G3 tegak lurus? : " + G1.isTegakLurus(G3));
         System.out.println("Apakah garis G1 dan G2 tegak lurus? : " + G1.isTegakLurus(G2));
+
+        System.err.println("Jumlah garis : " + Garis.getCounterGaris());
     
 
 
