@@ -1,0 +1,12 @@
+// Elvina Neila Samas / 24060123120031
+abstract class Anabul {
+    protected String nama;
+
+    public Anabul(String nama) {
+        this.nama = nama;
+    }
+
+    public abstract void gerak();
+
+    public abstract void bersuara();
+}
